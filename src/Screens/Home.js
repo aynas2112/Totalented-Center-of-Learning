@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Carousel from '../components/Carousel'
+import Cards from '../components/Cards'
 
 const Home = () => {
   
@@ -16,11 +17,12 @@ const Home = () => {
       <div className='text-slate-300 text-center text-5xl font-style: italic'>
       Learning is a treasure that will follow its owner everywhere.
       </div>
+      <div>
+        <Cards />
+      </div>
     </div>
     </>
   )
 }
 
 export default Home
-
-// 'max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative'
