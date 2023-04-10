@@ -33,7 +33,7 @@ const Carousel = () => {
         setCurrentIndex(slideIndex);
       }
   return (
-    <div className='max-w-[1200px] h-[800px] w-full m-auto py-40 px-4 relative group' >
+    <div className='max-w-[1200px] h-[800px] w-full mt-20 m-auto py-40 px-4 relative group' >
       <div style={{backgroundImage:`url(${slides[currentIndex].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'></div>
       {/* Left Arrow  */}
       <div className='hidden group-hover:block absolute top-50% -translate-x-0 translate-y-[-550%] left-5 text-2xl rounded-full p-2 bg-black/20  text-white cursor-pointer'> 
